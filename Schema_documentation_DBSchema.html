@@ -278,14 +278,6 @@ gene_differential_expression ref rna_diff_meta ( de_rna_id -&gt; rna_diff_id )</
 <path transform='translate(8,0)' marker-start='url(#foot1p)' marker-end='url(#arrow1)'    d='M 192,304L 176,304' ><title>Fk fk_rna_differential_expression_meta
 gene_differential_expression ref rna_diff_meta ( de_rna_id -&gt; rna_diff_id )</title></path>
 <text x='146' y='299' transform='rotate(0 146,299)' class='relName'>de_rna_id</text>
-<!-- == Fk 'atac_diff_meta_individual_samples_fk_atac_diff_meta_indiv_samples' == -->
-<path id='atac_diff_meta_individual_samples_fk_atac_diff_meta_indiv_samples'  onmouseover="hghl(['atac_diff_meta_individual_samples_fk_atac_diff_meta_indiv_samples','public.atac_diff_meta_individual_samples.atac_diff_id','public.atac_diff_meta.atac_diff_id'])" onmouseout="uhghl(['atac_diff_meta_individual_samples_fk_atac_diff_meta_indiv_samples','public.atac_diff_meta_individual_samples.atac_diff_id','public.atac_diff_meta.atac_diff_id'])" transform='translate(8,0)' class='scene' d='M 1168,432L 1168,416' >
-	<title>Fk fk_atac_diff_meta_indiv_samples
-atac_diff_meta_individual_samples ref atac_diff_meta ( atac_diff_id )</title>
-</path>
-<path transform='translate(8,0)' marker-start='url(#foot1p)' marker-end='url(#arrow1)'    d='M 1168,432L 1168,416' ><title>Fk fk_atac_diff_meta_indiv_samples
-atac_diff_meta_individual_samples ref atac_diff_meta ( atac_diff_id )</title></path>
-<text x='1171' y='427' transform='rotate(270 1171,427)' class='relName'>atac_diff_id</text>
 <!-- == Fk 'rna_diff_meta_individual_samples_fk_rna_diff_meta_individual_samples' == -->
 <path id='rna_diff_meta_individual_samples_fk_rna_diff_meta_individual_samples'  onmouseover="hghl(['rna_diff_meta_individual_samples_fk_rna_diff_meta_individual_samples','public.rna_diff_meta_individual_samples.rna_diff_id','public.rna_diff_meta.rna_diff_id'])" onmouseout="uhghl(['rna_diff_meta_individual_samples_fk_rna_diff_meta_individual_samples','public.rna_diff_meta_individual_samples.rna_diff_id','public.rna_diff_meta.rna_diff_id'])" transform='translate(8,0)' class='scene' d='M 64,432L 64,400' >
 	<title>Fk fk_rna_diff_meta_individual_samples
@@ -294,22 +286,6 @@ rna_diff_meta_individual_samples ref rna_diff_meta ( rna_diff_id )</title>
 <path transform='translate(8,0)' marker-start='url(#foot1p)' marker-end='url(#arrow1)'    d='M 64,432L 64,400' ><title>Fk fk_rna_diff_meta_individual_samples
 rna_diff_meta_individual_samples ref rna_diff_meta ( rna_diff_id )</title></path>
 <text x='67' y='427' transform='rotate(270 67,427)' class='relName'>rna_diff_id</text>
-<!-- == Fk 'atac_data_fk_atac_data_atac_meta' == -->
-<path id='atac_data_fk_atac_data_atac_meta'  onmouseover="hghl(['atac_data_fk_atac_data_atac_meta','public.atac_data.atac_id','public.atac_meta.atac_id'])" onmouseout="uhghl(['atac_data_fk_atac_data_atac_meta','public.atac_data.atac_id','public.atac_meta.atac_id'])" transform='translate(8,0)' class='scene' d='M 1120,112L 1136,112' >
-	<title>Fk fk_atac_data_atac_meta
-atac_data ref atac_meta ( atac_id )</title>
-</path>
-<path transform='translate(8,0)' marker-start='url(#foot1p)' marker-end='url(#arrow1)'    d='M 1120,112L 1136,112' ><title>Fk fk_atac_data_atac_meta
-atac_data ref atac_meta ( atac_id )</title></path>
-<text x='1129' y='107' transform='rotate(0 1129,107)' class='relName'>atac_id</text>
-<!-- == Fk 'atac_data_fk_atac_data_genome_structure' == -->
-<path id='atac_data_fk_atac_data_genome_structure'  onmouseover="hghl(['atac_data_fk_atac_data_genome_structure','public.atac_data.genome_structure_id','public.genome_structure.genome_structure_id'])" onmouseout="uhghl(['atac_data_fk_atac_data_genome_structure','public.atac_data.genome_structure_id','public.genome_structure.genome_structure_id'])" transform='translate(8,0)' class='scene' d='M 944,112L 928,112' >
-	<title>Fk fk_atac_data_genome_structure
-atac_data ref genome_structure ( genome_structure_id )</title>
-</path>
-<path transform='translate(8,0)' marker-start='url(#foot1p)' marker-end='url(#arrow1)'    d='M 944,112L 928,112' ><title>Fk fk_atac_data_genome_structure
-atac_data ref genome_structure ( genome_structure_id )</title></path>
-<text x='830' y='107' transform='rotate(0 830,107)' class='relName'>genome_structure_id</text>
 <!-- == Fk 'gene_structure_fk_gene_structure_gene_info' == -->
 <path id='gene_structure_fk_gene_structure_gene_info'  onmouseover="hghl(['gene_structure_fk_gene_structure_gene_info','public.gene_structure.gene_id','public.gene_info.gene_id'])" onmouseout="uhghl(['gene_structure_fk_gene_structure_gene_info','public.gene_structure.gene_id','public.gene_info.gene_id'])" transform='translate(8,0)' class='scene' d='M 560,112L 528,112' >
 	<title>Fk fk_gene_structure_gene_info
@@ -326,14 +302,22 @@ gene_structure ref genome_structure ( genome_structure_id )</title>
 <path transform='translate(8,0)' marker-start='url(#foot1p)' marker-end='url(#arrow1)'    d='M 736,96L 752,96' ><title>Fk fk_gene_structure
 gene_structure ref genome_structure ( genome_structure_id )</title></path>
 <text x='745' y='91' transform='rotate(0 745,91)' class='relName'>genome_structure_id</text>
-<!-- == Fk 'gene_ontology_fk_gene_ontology_gene_info' == -->
-<path id='gene_ontology_fk_gene_ontology_gene_info'  onmouseover="hghl(['gene_ontology_fk_gene_ontology_gene_info','public.gene_ontology.gene_id','public.gene_info.gene_id'])" onmouseout="uhghl(['gene_ontology_fk_gene_ontology_gene_info','public.gene_ontology.gene_id','public.gene_info.gene_id'])" transform='translate(8,0)' class='scene' d='M 448,304L 448,192' >
-	<title>Fk fk_gene_ontology_gene_info
-gene_ontology ref gene_info ( gene_id )</title>
+<!-- == Fk 'atac_data_fk_atac_data_atac_meta' == -->
+<path id='atac_data_fk_atac_data_atac_meta'  onmouseover="hghl(['atac_data_fk_atac_data_atac_meta','public.atac_data.atac_id','public.atac_meta.atac_id'])" onmouseout="uhghl(['atac_data_fk_atac_data_atac_meta','public.atac_data.atac_id','public.atac_meta.atac_id'])" transform='translate(8,0)' class='scene' d='M 1120,112L 1136,112' >
+	<title>Fk fk_atac_data_atac_meta
+atac_data ref atac_meta ( atac_id )</title>
 </path>
-<path transform='translate(8,0)' marker-start='url(#foot1p)' marker-end='url(#arrow1)'    d='M 448,304L 448,192' ><title>Fk fk_gene_ontology_gene_info
-gene_ontology ref gene_info ( gene_id )</title></path>
-<text x='451' y='299' transform='rotate(270 451,299)' class='relName'>gene_id</text>
+<path transform='translate(8,0)' marker-start='url(#foot1p)' marker-end='url(#arrow1)'    d='M 1120,112L 1136,112' ><title>Fk fk_atac_data_atac_meta
+atac_data ref atac_meta ( atac_id )</title></path>
+<text x='1129' y='107' transform='rotate(0 1129,107)' class='relName'>atac_id</text>
+<!-- == Fk 'atac_data_fk_atac_data_genome_structure' == -->
+<path id='atac_data_fk_atac_data_genome_structure'  onmouseover="hghl(['atac_data_fk_atac_data_genome_structure','public.atac_data.genome_structure_id','public.genome_structure.genome_structure_id'])" onmouseout="uhghl(['atac_data_fk_atac_data_genome_structure','public.atac_data.genome_structure_id','public.genome_structure.genome_structure_id'])" transform='translate(8,0)' class='scene' d='M 944,112L 928,112' >
+	<title>Fk fk_atac_data_genome_structure
+atac_data ref genome_structure ( genome_structure_id )</title>
+</path>
+<path transform='translate(8,0)' marker-start='url(#foot1p)' marker-end='url(#arrow1)'    d='M 944,112L 928,112' ><title>Fk fk_atac_data_genome_structure
+atac_data ref genome_structure ( genome_structure_id )</title></path>
+<text x='830' y='107' transform='rotate(0 830,107)' class='relName'>genome_structure_id</text>
 <!-- == Fk 'gene_expression_fk_gene_expression_gene_info' == -->
 <path id='gene_expression_fk_gene_expression_gene_info'  onmouseover="hghl(['gene_expression_fk_gene_expression_gene_info','public.gene_expression.gene_id','public.gene_info.gene_id'])" onmouseout="uhghl(['gene_expression_fk_gene_expression_gene_info','public.gene_expression.gene_id','public.gene_info.gene_id'])" transform='translate(8,0)' class='scene' d='M 384,112L 416,112' >
 	<title>Fk fk_gene_expression_gene_info
@@ -358,14 +342,22 @@ atac_differential_peaks ref atac_diff_meta ( atac_diff_id )</title>
 <path transform='translate(8,0)' marker-start='url(#foot1p)' marker-end='url(#arrow1)'    d='M 1120,304L 1136,304' ><title>Fk fk_atac_differential_peaks
 atac_differential_peaks ref atac_diff_meta ( atac_diff_id )</title></path>
 <text x='1129' y='299' transform='rotate(0 1129,299)' class='relName'>atac_diff_id</text>
-<!-- == Fk 'atac_differential_peaks_fk_atac_differential_peaks_geneome_structure' == -->
-<path id='atac_differential_peaks_fk_atac_differential_peaks_geneome_structure'  onmouseover="hghl(['atac_differential_peaks_fk_atac_differential_peaks_geneome_structure','public.atac_differential_peaks.genome_structure_id','public.genome_structure.genome_structure_id'])" onmouseout="uhghl(['atac_differential_peaks_fk_atac_differential_peaks_geneome_structure','public.atac_differential_peaks.genome_structure_id','public.genome_structure.genome_structure_id'])" transform='translate(8,0)' class='scene' d='M 944,272L 920,272Q 912,272 912,264L 912,208' >
-	<title>Fk fk_atac_differential_peaks_geneome_structure
+<!-- == Fk 'atac_differential_peaks_fk_atac_diff_peaks_genome_structure' == -->
+<path id='atac_differential_peaks_fk_atac_diff_peaks_genome_structure'  onmouseover="hghl(['atac_differential_peaks_fk_atac_diff_peaks_genome_structure','public.atac_differential_peaks.genome_structure_id','public.genome_structure.genome_structure_id'])" onmouseout="uhghl(['atac_differential_peaks_fk_atac_diff_peaks_genome_structure','public.atac_differential_peaks.genome_structure_id','public.genome_structure.genome_structure_id'])" transform='translate(8,0)' class='scene' d='M 944,272L 920,272Q 912,272 912,264L 912,208' >
+	<title>Fk fk_atac_diff_peaks_genome_structure
 atac_differential_peaks ref genome_structure ( genome_structure_id )</title>
 </path>
-<path transform='translate(8,0)' marker-start='url(#foot1p)' marker-end='url(#arrow1)'    d='M 944,272L 920,272Q 912,272 912,264L 912,208' ><title>Fk fk_atac_differential_peaks_geneome_structure
+<path transform='translate(8,0)' marker-start='url(#foot1p)' marker-end='url(#arrow1)'    d='M 944,272L 920,272Q 912,272 912,264L 912,208' ><title>Fk fk_atac_diff_peaks_genome_structure
 atac_differential_peaks ref genome_structure ( genome_structure_id )</title></path>
 <text x='830' y='267' transform='rotate(0 830,267)' class='relName'>genome_structure_id</text>
+<!-- == Fk 'gene_ontology_fk_gene_ontology_gene_info' == -->
+<path id='gene_ontology_fk_gene_ontology_gene_info'  onmouseover="hghl(['gene_ontology_fk_gene_ontology_gene_info','public.gene_ontology.gene_id','public.gene_info.gene_id'])" onmouseout="uhghl(['gene_ontology_fk_gene_ontology_gene_info','public.gene_ontology.gene_id','public.gene_info.gene_id'])" transform='translate(8,0)' class='scene' d='M 448,304L 448,192' >
+	<title>Fk fk_gene_ontology_gene_info
+gene_ontology ref gene_info ( gene_id )</title>
+</path>
+<path transform='translate(8,0)' marker-start='url(#foot1p)' marker-end='url(#arrow1)'    d='M 448,304L 448,192' ><title>Fk fk_gene_ontology_gene_info
+gene_ontology ref gene_info ( gene_id )</title></path>
+<text x='451' y='299' transform='rotate(270 451,299)' class='relName'>gene_id</text>
 <!-- == Table 'qpcr_timeseries' == -->
 <rect class='entity' style='stroke:#8F1E44' x='576' y='312' width='144' height='96' rx='8' ry='8' />
 <path d='M 576 340 L 576 320 Q 576 312 584 312 L 712 312 Q 720 312 720 320 L 720 340 L576 340 ' style='fill:url(#tbg_B36680);stroke:1;stroke-opacity:0.1;' />
@@ -429,10 +421,9 @@ Information about the different datasets in the analysis</title></a>
 ID for the individual dataset in the analysis. 
 
 An analysis might have multiple individual datasets. For example, 3 replicates from one condition and 3 replicates from another.</title></a>
-<text x='1357' y='484' text-anchor='end' class='colType'>#</text>  <use id='nn' x='1138' y='493' xlink:href='#nn'/><a xlink:href='#public.atac_diff_meta_individual_samples_atac_diff_id'><text id='public.atac_diff_meta_individual_samples.atac_diff_id' x='1155' y='503' onmouseover="hghl(['atac_diff_meta_individual_samples_fk_atac_diff_meta_indiv_samples','public.atac_diff_meta.atac_diff_id'])" onmouseout="uhghl(['atac_diff_meta_individual_samples_fk_atac_diff_meta_indiv_samples','public.atac_diff_meta.atac_diff_id'])">atac_diff_id</text><title>atac_diff_id
+<text x='1357' y='484' text-anchor='end' class='colType'>#</text>  <use id='nn' x='1138' y='493' xlink:href='#nn'/><a xlink:href='#public.atac_diff_meta_individual_samples_atac_diff_id'><text id='public.atac_diff_meta_individual_samples.atac_diff_id' x='1155' y='503'>atac_diff_id</text><title>atac_diff_id
 * integer</title></a>
-<a xlink:href='#public.atac_diff_meta_individual_samples.atac_diff_id'><use id='fk' x='1348' y='492' xlink:href='#fk'/><title>References atac_diff_meta ( atac_diff_id ) </title></a>
-  <a xlink:href='#public.atac_diff_meta_individual_samples_dev_stage'><text id='public.atac_diff_meta_individual_samples.dev_stage' x='1155' y='519'>dev_stage</text><title>dev_stage
+<text x='1357' y='500' text-anchor='end' class='colType'>#</text>  <a xlink:href='#public.atac_diff_meta_individual_samples_dev_stage'><text id='public.atac_diff_meta_individual_samples.dev_stage' x='1155' y='519'>dev_stage</text><title>dev_stage
 varchar</title></a>
 <text x='1357' y='516' text-anchor='end' class='colType'>t</text>  <a xlink:href='#public.atac_diff_meta_individual_samples_species'><text id='public.atac_diff_meta_individual_samples.species' x='1155' y='535'>species</text><title>species
 varchar</title></a>
@@ -457,10 +448,10 @@ varchar</title></a>
 <path d='M 768 116 L 768 96 Q 768 88 776 88 L 920 88 Q 928 88 928 96 L 928 116 L768 116 ' style='fill:url(#tbg_B36680);stroke:1;stroke-opacity:0.1;' />
 <rect class='entity' x='768' y='88' width='160' height='112' rx='8' ry='8' style='fill:none;stroke:#E1DADC'/>
 <a xlink:href='#public.genome_structure'><text x='791' y='107' >genome_structure</text><title>Table public.genome_structure</title></a>
-  <use id='nn' x='770' y='125' xlink:href='#nn'/><use id='pk' x='770' y='124' xlink:href='#pk'><title>Pk pk_genome_structure_genome_structure_id ( genome_structure_id ) Unq idx_genome_structure ( genome_species, scaffold, genome_version, genome_structure_id ) </title></use><a xlink:href='#public.genome_structure_genome_structure_id'><text id='public.genome_structure.genome_structure_id' x='787' y='135' onmouseover="hghl(['atac_data_fk_atac_data_genome_structure','public.atac_data.genome_structure_id','gene_structure_fk_gene_structure','public.gene_structure.genome_structure_id','atac_differential_peaks_fk_atac_differential_peaks_geneome_structure','public.atac_differential_peaks.genome_structure_id'])" onmouseout="uhghl(['atac_data_fk_atac_data_genome_structure','public.atac_data.genome_structure_id','gene_structure_fk_gene_structure','public.gene_structure.genome_structure_id','atac_differential_peaks_fk_atac_differential_peaks_geneome_structure','public.atac_differential_peaks.genome_structure_id'])">genome_structure_id</text><title>genome_structure_id
+  <use id='nn' x='770' y='125' xlink:href='#nn'/><use id='pk' x='770' y='124' xlink:href='#pk'><title>Pk pk_genome_structure_genome_structure_id ( genome_structure_id ) Unq idx_genome_structure ( genome_species, scaffold, genome_version, genome_structure_id ) </title></use><a xlink:href='#public.genome_structure_genome_structure_id'><text id='public.genome_structure.genome_structure_id' x='787' y='135' onmouseover="hghl(['gene_structure_fk_gene_structure','public.gene_structure.genome_structure_id','atac_data_fk_atac_data_genome_structure','public.atac_data.genome_structure_id','atac_differential_peaks_fk_atac_diff_peaks_genome_structure','public.atac_differential_peaks.genome_structure_id'])" onmouseout="uhghl(['gene_structure_fk_gene_structure','public.gene_structure.genome_structure_id','atac_data_fk_atac_data_genome_structure','public.atac_data.genome_structure_id','atac_differential_peaks_fk_atac_diff_peaks_genome_structure','public.atac_differential_peaks.genome_structure_id'])">genome_structure_id</text><title>genome_structure_id
 * integer generated by default as identity</title></a>
-<a xlink:href='#public.genome_structure.genome_structure_id'><use id='ref' x='916' y='124' xlink:href='#ref'/><title>Referred by atac_data ( genome_structure_id ) 
-Referred by gene_structure ( genome_structure_id ) 
+<a xlink:href='#public.genome_structure.genome_structure_id'><use id='ref' x='916' y='124' xlink:href='#ref'/><title>Referred by gene_structure ( genome_structure_id ) 
+Referred by atac_data ( genome_structure_id ) 
 Referred by atac_differential_peaks ( genome_structure_id ) </title></a>
   <use id='nn' x='770' y='141' xlink:href='#nn'/><use id='unq' x='770' y='140' xlink:href='#unq'><title>Unq idx_genome_structure ( genome_species, scaffold, genome_version, genome_structure_id ) </title></use><a xlink:href='#public.genome_structure_genome_species'><text id='public.genome_structure.genome_species' x='787' y='151'>genome_species</text><title>genome_species
 * varchar</title></a>
@@ -470,24 +461,26 @@ Referred by atac_differential_peaks ( genome_structure_id ) </title></a>
 * varchar
 What version of the genome is being used</title></a>
 <text x='925' y='180' text-anchor='end' class='colType'>t</text>
-<!-- == Table 'atac_data' == -->
-<rect class='entity' style='stroke:#8F561E' x='960' y='88' width='160' height='128' rx='8' ry='8' />
-<path d='M 960 116 L 960 96 Q 960 88 968 88 L 1112 88 Q 1120 88 1120 96 L 1120 116 L960 116 ' style='fill:url(#tbg_CC8033);stroke:1;stroke-opacity:0.1;' />
-<rect class='entity' x='960' y='88' width='160' height='128' rx='8' ry='8' style='fill:none;stroke:#E1DDDA'/>
-<a xlink:href='#public.atac_data'><text x='1008' y='107' >atac_data</text><title>Table public.atac_data</title></a>
-  <use id='nn' x='962' y='125' xlink:href='#nn'/><use id='pk' x='962' y='124' xlink:href='#pk'><title>Pk pk_atac_data_peak_id ( peak_id ) </title></use><a xlink:href='#public.atac_data_peak_id'><text id='public.atac_data.peak_id' x='979' y='135'>peak_id</text><title>peak_id
-* bigserial</title></a>
-<text x='1117' y='132' text-anchor='end' class='colType'>#</text>  <use id='nn' x='962' y='141' xlink:href='#nn'/><a xlink:href='#public.atac_data_atac_id'><text id='public.atac_data.atac_id' x='979' y='151' onmouseover="hghl(['atac_data_fk_atac_data_atac_meta','public.atac_meta.atac_id'])" onmouseout="uhghl(['atac_data_fk_atac_data_atac_meta','public.atac_meta.atac_id'])">atac_id</text><title>atac_id
-* integer</title></a>
-<a xlink:href='#public.atac_data.atac_id'><use id='fk' x='1108' y='140' xlink:href='#fk'/><title>References atac_meta ( atac_id ) </title></a>
-  <use id='nn' x='962' y='157' xlink:href='#nn'/><a xlink:href='#public.atac_data_peak_value'><text id='public.atac_data.peak_value' x='979' y='167'>peak_value</text><title>peak_value
-* float8</title></a>
-<text x='1117' y='164' text-anchor='end' class='colType'>#</text>  <a xlink:href='#public.atac_data_peak_range'><text id='public.atac_data.peak_range' x='979' y='183'>peak_range</text><title>peak_range
-int4range</title></a>
-  <use id='nn' x='962' y='189' xlink:href='#nn'/><a xlink:href='#public.atac_data_genome_structure_id'><text id='public.atac_data.genome_structure_id' x='979' y='199' onmouseover="hghl(['atac_data_fk_atac_data_genome_structure','public.genome_structure.genome_structure_id'])" onmouseout="uhghl(['atac_data_fk_atac_data_genome_structure','public.genome_structure.genome_structure_id'])">genome_structure_id</text><title>genome_structure_id
-* integer</title></a>
-<a xlink:href='#public.atac_data.genome_structure_id'><use id='fk' x='1108' y='188' xlink:href='#fk'/><title>References genome_structure ( genome_structure_id ) </title></a>
-
+<!-- == Table 'gene_info' == -->
+<rect class='entity' style='stroke:#8F1E44' x='432' y='88' width='96' height='96' rx='8' ry='8' />
+<path d='M 432 116 L 432 96 Q 432 88 440 88 L 520 88 Q 528 88 528 96 L 528 116 L432 116 ' style='fill:url(#tbg_B36680);stroke:1;stroke-opacity:0.1;' />
+<rect class='entity' x='432' y='88' width='96' height='96' rx='8' ry='8' style='fill:none;stroke:#E1DADC'/>
+<a xlink:href='#public.gene_info'><text x='447' y='107' >gene_info</text><title>Table public.gene_info
+Information per gene</title></a>
+  <use id='nn' x='434' y='125' xlink:href='#nn'/><use id='pk' x='434' y='124' xlink:href='#pk'><title>Pk pk_gene_info_gene_id ( gene_id ) </title></use><a xlink:href='#public.gene_info_gene_id'><text id='public.gene_info.gene_id' x='451' y='135' onmouseover="hghl(['gene_expression_fk_gene_expression_gene_info','public.gene_expression.gene_id','gene_ontology_fk_gene_ontology_gene_info','public.gene_ontology.gene_id','gene_structure_fk_gene_structure_gene_info','public.gene_structure.gene_id','qpcr_timeseries_fk_qpcr_timeseries_gene_info','public.qpcr_timeseries.gene_id'])" onmouseout="uhghl(['gene_expression_fk_gene_expression_gene_info','public.gene_expression.gene_id','gene_ontology_fk_gene_ontology_gene_info','public.gene_ontology.gene_id','gene_structure_fk_gene_structure_gene_info','public.gene_structure.gene_id','qpcr_timeseries_fk_qpcr_timeseries_gene_info','public.qpcr_timeseries.gene_id'])">gene_id</text><title>gene_id
+* varchar
+Unique ID for genes</title></a>
+<a xlink:href='#public.gene_info.gene_id'><use id='ref' x='516' y='124' xlink:href='#ref'/><title>Referred by gene_expression ( gene_id ) 
+Referred by gene_ontology ( gene_id ) 
+Referred by gene_structure ( gene_id ) 
+Referred by qpcr_timeseries ( gene_id ) </title></a>
+  <a xlink:href='#public.gene_info_name'><text id='public.gene_info.name' x='451' y='151'>name</text><title>name
+varchar
+common name for the gene</title></a>
+<text x='525' y='148' text-anchor='end' class='colType'>t</text>  <a xlink:href='#public.gene_info_synonyms'><text id='public.gene_info.synonyms' x='451' y='167'>synonyms</text><title>synonyms
+varchar
+Alternative names for the gene</title></a>
+<text x='525' y='164' text-anchor='end' class='colType'>t</text>
 <!-- == Table 'gene_structure' == -->
 <rect class='entity' style='stroke:#8F1E44' x='576' y='72' width='160' height='128' rx='8' ry='8' />
 <path d='M 576 100 L 576 80 Q 576 72 584 72 L 728 72 Q 736 72 736 80 L 736 100 L576 100 ' style='fill:url(#tbg_B36680);stroke:1;stroke-opacity:0.1;' />
@@ -511,85 +504,24 @@ range of where the gene is located. last number is exclusionary</title></a>
 Unique ID for where the gene is. Relates to a table indicating the scaffold, genome_species, and genome_version.</title></a>
 <a xlink:href='#public.gene_structure.genome_structure_id'><use id='fk' x='724' y='172' xlink:href='#fk'/><title>References genome_structure ( genome_structure_id ) </title></a>
 
-<!-- == Table 'gene_ontology' == -->
-<rect class='entity' style='stroke:#8F1E44' x='432' y='312' width='112' height='112' rx='8' ry='8' />
-<path d='M 432 340 L 432 320 Q 432 312 440 312 L 536 312 Q 544 312 544 320 L 544 340 L432 340 ' style='fill:url(#tbg_B36680);stroke:1;stroke-opacity:0.1;' />
-<rect class='entity' x='432' y='312' width='112' height='112' rx='8' ry='8' style='fill:none;stroke:#E1DADC'/>
-<a xlink:href='#public.gene_ontology'><text x='441' y='331' >gene_ontology</text><title>Table public.gene_ontology</title></a>
-  <use id='nn' x='434' y='349' xlink:href='#nn'/><use id='pk' x='434' y='348' xlink:href='#pk'><title>Pk idx_gene_ontology ( gene_id, go_num ) </title></use><a xlink:href='#public.gene_ontology_gene_id'><text id='public.gene_ontology.gene_id' x='451' y='359' onmouseover="hghl(['gene_ontology_fk_gene_ontology_gene_info','public.gene_info.gene_id'])" onmouseout="uhghl(['gene_ontology_fk_gene_ontology_gene_info','public.gene_info.gene_id'])">gene_id</text><title>gene_id
-* varchar</title></a>
-<a xlink:href='#public.gene_ontology.gene_id'><use id='fk' x='532' y='348' xlink:href='#fk'/><title>References gene_info ( gene_id ) </title></a>
-  <use id='nn' x='434' y='365' xlink:href='#nn'/><use id='pk' x='434' y='364' xlink:href='#pk'><title>Pk idx_gene_ontology ( gene_id, go_num ) </title></use><a xlink:href='#public.gene_ontology_go_num'><text id='public.gene_ontology.go_num' x='451' y='375'>go_num</text><title>go_num
-* varchar</title></a>
-<text x='541' y='372' text-anchor='end' class='colType'>t</text>  <a xlink:href='#public.gene_ontology_ot_type'><text id='public.gene_ontology.ot_type' x='451' y='391'>ot_type</text><title>ot_type
-varchar</title></a>
-<text x='541' y='388' text-anchor='end' class='colType'>t</text>  <a xlink:href='#public.gene_ontology_ot_data'><text id='public.gene_ontology.ot_data' x='451' y='407'>ot_data</text><title>ot_data
-varchar</title></a>
-<text x='541' y='404' text-anchor='end' class='colType'>t</text>
-<!-- == Table 'gene_info' == -->
-<rect class='entity' style='stroke:#8F1E44' x='432' y='88' width='96' height='96' rx='8' ry='8' />
-<path d='M 432 116 L 432 96 Q 432 88 440 88 L 520 88 Q 528 88 528 96 L 528 116 L432 116 ' style='fill:url(#tbg_B36680);stroke:1;stroke-opacity:0.1;' />
-<rect class='entity' x='432' y='88' width='96' height='96' rx='8' ry='8' style='fill:none;stroke:#E1DADC'/>
-<a xlink:href='#public.gene_info'><text x='447' y='107' >gene_info</text><title>Table public.gene_info
-Information per gene</title></a>
-  <use id='nn' x='434' y='125' xlink:href='#nn'/><use id='pk' x='434' y='124' xlink:href='#pk'><title>Pk pk_gene_info_gene_id ( gene_id ) </title></use><a xlink:href='#public.gene_info_gene_id'><text id='public.gene_info.gene_id' x='451' y='135' onmouseover="hghl(['gene_expression_fk_gene_expression_gene_info','public.gene_expression.gene_id','gene_ontology_fk_gene_ontology_gene_info','public.gene_ontology.gene_id','gene_structure_fk_gene_structure_gene_info','public.gene_structure.gene_id','qpcr_timeseries_fk_qpcr_timeseries_gene_info','public.qpcr_timeseries.gene_id'])" onmouseout="uhghl(['gene_expression_fk_gene_expression_gene_info','public.gene_expression.gene_id','gene_ontology_fk_gene_ontology_gene_info','public.gene_ontology.gene_id','gene_structure_fk_gene_structure_gene_info','public.gene_structure.gene_id','qpcr_timeseries_fk_qpcr_timeseries_gene_info','public.qpcr_timeseries.gene_id'])">gene_id</text><title>gene_id
-* varchar
-Unique ID for genes</title></a>
-<a xlink:href='#public.gene_info.gene_id'><use id='ref' x='516' y='124' xlink:href='#ref'/><title>Referred by gene_expression ( gene_id ) 
-Referred by gene_ontology ( gene_id ) 
-Referred by gene_structure ( gene_id ) 
-Referred by qpcr_timeseries ( gene_id ) </title></a>
-  <a xlink:href='#public.gene_info_name'><text id='public.gene_info.name' x='451' y='151'>name</text><title>name
-varchar
-common name for the gene</title></a>
-<text x='525' y='148' text-anchor='end' class='colType'>t</text>  <a xlink:href='#public.gene_info_synonyms'><text id='public.gene_info.synonyms' x='451' y='167'>synonyms</text><title>synonyms
-varchar
-Alternative names for the gene</title></a>
-<text x='525' y='164' text-anchor='end' class='colType'>t</text>
-<!-- == Table 'atac_diff_meta' == -->
-<rect class='entity' style='stroke:#8F561E' x='1152' y='296' width='128' height='112' rx='8' ry='8' />
-<path d='M 1152 324 L 1152 304 Q 1152 296 1160 296 L 1272 296 Q 1280 296 1280 304 L 1280 324 L1152 324 ' style='fill:url(#tbg_CC8033);stroke:1;stroke-opacity:0.1;' />
-<rect class='entity' x='1152' y='296' width='128' height='112' rx='8' ry='8' style='fill:none;stroke:#E1DDDA'/>
-<a xlink:href='#public.atac_diff_meta'><text x='1169' y='315' >atac_diff_meta</text><title>Table public.atac_diff_meta</title></a>
-  <use id='nn' x='1154' y='333' xlink:href='#nn'/><use id='pk' x='1154' y='332' xlink:href='#pk'><title>Pk pk_atac_de_meta_de_atac_id ( atac_diff_id ) </title></use><a xlink:href='#public.atac_diff_meta_atac_diff_id'><text id='public.atac_diff_meta.atac_diff_id' x='1171' y='343' onmouseover="hghl(['atac_diff_meta_individual_samples_fk_atac_diff_meta_indiv_samples','public.atac_diff_meta_individual_samples.atac_diff_id','atac_differential_peaks_fk_atac_differential_peaks','public.atac_differential_peaks.atac_diff_id'])" onmouseout="uhghl(['atac_diff_meta_individual_samples_fk_atac_diff_meta_indiv_samples','public.atac_diff_meta_individual_samples.atac_diff_id','atac_differential_peaks_fk_atac_differential_peaks','public.atac_differential_peaks.atac_diff_id'])">atac_diff_id</text><title>atac_diff_id
+<!-- == Table 'atac_data' == -->
+<rect class='entity' style='stroke:#8F561E' x='960' y='88' width='160' height='128' rx='8' ry='8' />
+<path d='M 960 116 L 960 96 Q 960 88 968 88 L 1112 88 Q 1120 88 1120 96 L 1120 116 L960 116 ' style='fill:url(#tbg_CC8033);stroke:1;stroke-opacity:0.1;' />
+<rect class='entity' x='960' y='88' width='160' height='128' rx='8' ry='8' style='fill:none;stroke:#E1DDDA'/>
+<a xlink:href='#public.atac_data'><text x='1008' y='107' >atac_data</text><title>Table public.atac_data</title></a>
+  <use id='nn' x='962' y='125' xlink:href='#nn'/><use id='pk' x='962' y='124' xlink:href='#pk'><title>Pk pk_atac_data_peak_id ( peak_id ) </title></use><a xlink:href='#public.atac_data_peak_id'><text id='public.atac_data.peak_id' x='979' y='135'>peak_id</text><title>peak_id
+* bigserial</title></a>
+<text x='1117' y='132' text-anchor='end' class='colType'>#</text>  <use id='nn' x='962' y='141' xlink:href='#nn'/><use id='idx' x='962' y='140' xlink:href='#idx'><title>idx_atac_data ( atac_id, peak_range, genome_structure_id ) </title></use><a xlink:href='#public.atac_data_atac_id'><text id='public.atac_data.atac_id' x='979' y='151' onmouseover="hghl(['atac_data_fk_atac_data_atac_meta','public.atac_meta.atac_id'])" onmouseout="uhghl(['atac_data_fk_atac_data_atac_meta','public.atac_meta.atac_id'])">atac_id</text><title>atac_id
 * integer</title></a>
-<a xlink:href='#public.atac_diff_meta.atac_diff_id'><use id='ref' x='1268' y='332' xlink:href='#ref'/><title>Referred by atac_diff_meta_individual_samples ( atac_diff_id ) 
-Referred by atac_differential_peaks ( atac_diff_id ) </title></a>
-  <a xlink:href='#public.atac_diff_meta_analyst'><text id='public.atac_diff_meta.analyst' x='1171' y='359'>analyst</text><title>analyst
-text</title></a>
-<text x='1277' y='356' text-anchor='end' class='colType'>t</text>  <a xlink:href='#public.atac_diff_meta_date_calculated'><text id='public.atac_diff_meta.date_calculated' x='1171' y='375'>date_calculated</text><title>date_calculated
-date</title></a>
-<text x='1277' y='372' text-anchor='end' class='colType'>d</text>  <a xlink:href='#public.atac_diff_meta_description'><text id='public.atac_diff_meta.description' x='1171' y='391'>description</text><title>description
-varchar</title></a>
-<text x='1277' y='388' text-anchor='end' class='colType'>t</text>
-<!-- == Table 'rna_meta' == -->
-<rect class='entity' style='stroke:#1E348F' x='48' y='88' width='128' height='176' rx='8' ry='8' />
-<path d='M 48 116 L 48 96 Q 48 88 56 88 L 168 88 Q 176 88 176 96 L 176 116 L48 116 ' style='fill:url(#tbg_8099FF);stroke:1;stroke-opacity:0.1;' />
-<rect class='entity' x='48' y='88' width='128' height='176' rx='8' ry='8' style='fill:none;stroke:#DADBE1'/>
-<a xlink:href='#public.rna_meta'><text x='81' y='107' >rna_meta</text><title>Table public.rna_meta
-Meta data about the rna-seq experiment.</title></a>
-  <use id='nn' x='50' y='125' xlink:href='#nn'/><use id='pk' x='50' y='124' xlink:href='#pk'><title>Pk pk_rna_meta_rna_id ( rna_id ) </title></use><a xlink:href='#public.rna_meta_rna_id'><text id='public.rna_meta.rna_id' x='67' y='135' onmouseover="hghl(['gene_expression_fk_gene_expression_rna_meta','public.gene_expression.rna_id'])" onmouseout="uhghl(['gene_expression_fk_gene_expression_rna_meta','public.gene_expression.rna_id'])">rna_id</text><title>rna_id
-* serial</title></a>
-<a xlink:href='#public.rna_meta.rna_id'><use id='ref' x='164' y='124' xlink:href='#ref'/><title>Referred by gene_expression ( rna_id ) </title></a>
-  <use id='nn' x='50' y='141' xlink:href='#nn'/><a xlink:href='#public.rna_meta_analyst'><text id='public.rna_meta.analyst' x='67' y='151'>analyst</text><title>analyst
-* text
-Who processed the data and sent it to the analytical database</title></a>
-<text x='173' y='148' text-anchor='end' class='colType'>t</text>  <use id='nn' x='50' y='157' xlink:href='#nn'/><a xlink:href='#public.rna_meta_dev_stage'><text id='public.rna_meta.dev_stage' x='67' y='167'>dev_stage</text><title>dev_stage
-* varchar
-developmental stage of the organism</title></a>
-<text x='173' y='164' text-anchor='end' class='colType'>t</text>  <use id='nn' x='50' y='173' xlink:href='#nn'/><a xlink:href='#public.rna_meta_species'><text id='public.rna_meta.species' x='67' y='183'>species</text><title>species
-* varchar</title></a>
-<text x='173' y='180' text-anchor='end' class='colType'>t</text>  <use id='nn' x='50' y='189' xlink:href='#nn'/><a xlink:href='#public.rna_meta_date_calculated'><text id='public.rna_meta.date_calculated' x='67' y='199'>date_calculated</text><title>date_calculated
-* date</title></a>
-<text x='173' y='196' text-anchor='end' class='colType'>d</text>  <a xlink:href='#public.rna_meta_description'><text id='public.rna_meta.description' x='67' y='215'>description</text><title>description
-varchar</title></a>
-<text x='173' y='212' text-anchor='end' class='colType'>t</text>  <use id='nn' x='50' y='221' xlink:href='#nn'/><a xlink:href='#public.rna_meta_units'><text id='public.rna_meta.units' x='67' y='231'>units</text><title>units
-* varchar
-Units the expression data is in</title></a>
-<text x='173' y='228' text-anchor='end' class='colType'>t</text>  <use id='nn' x='50' y='237' xlink:href='#nn'/><a xlink:href='#public.rna_meta_replicate_group'><text id='public.rna_meta.replicate_group' x='67' y='247'>replicate_group</text><title>replicate_group
-* integer
-replicate group for an experiment</title></a>
-<text x='173' y='244' text-anchor='end' class='colType'>#</text>
+<a xlink:href='#public.atac_data.atac_id'><use id='fk' x='1108' y='140' xlink:href='#fk'/><title>References atac_meta ( atac_id ) </title></a>
+  <a xlink:href='#public.atac_data_peak_value'><text id='public.atac_data.peak_value' x='979' y='167'>peak_value</text><title>peak_value
+float8</title></a>
+<text x='1117' y='164' text-anchor='end' class='colType'>#</text>  <use id='nn' x='962' y='173' xlink:href='#nn'/><use id='idx' x='962' y='172' xlink:href='#idx'><title>idx_atac_data ( atac_id, peak_range, genome_structure_id ) </title></use><a xlink:href='#public.atac_data_peak_range'><text id='public.atac_data.peak_range' x='979' y='183'>peak_range</text><title>peak_range
+* int4range</title></a>
+  <use id='nn' x='962' y='189' xlink:href='#nn'/><use id='idx' x='962' y='188' xlink:href='#idx'><title>idx_atac_data ( atac_id, peak_range, genome_structure_id ) </title></use><a xlink:href='#public.atac_data_genome_structure_id'><text id='public.atac_data.genome_structure_id' x='979' y='199' onmouseover="hghl(['atac_data_fk_atac_data_genome_structure','public.genome_structure.genome_structure_id'])" onmouseout="uhghl(['atac_data_fk_atac_data_genome_structure','public.genome_structure.genome_structure_id'])">genome_structure_id</text><title>genome_structure_id
+* integer</title></a>
+<a xlink:href='#public.atac_data.genome_structure_id'><use id='fk' x='1108' y='188' xlink:href='#fk'/><title>References genome_structure ( genome_structure_id ) </title></a>
+
 <!-- == Table 'atac_meta' == -->
 <rect class='entity' style='stroke:#8F561E' x='1152' y='104' width='128' height='176' rx='8' ry='8' />
 <path d='M 1152 132 L 1152 112 Q 1152 104 1160 104 L 1272 104 Q 1280 104 1280 112 L 1280 132 L1152 132 ' style='fill:url(#tbg_CC8033);stroke:1;stroke-opacity:0.1;' />
@@ -629,6 +561,34 @@ expression information about the genes in rna_meta</title></a>
   <use id='nn' x='274' y='157' xlink:href='#nn'/><a xlink:href='#public.gene_expression_expression'><text id='public.gene_expression.expression' x='291' y='167'>expression</text><title>expression
 * float8</title></a>
 <text x='381' y='164' text-anchor='end' class='colType'>#</text>
+<!-- == Table 'rna_meta' == -->
+<rect class='entity' style='stroke:#1E348F' x='48' y='88' width='128' height='176' rx='8' ry='8' />
+<path d='M 48 116 L 48 96 Q 48 88 56 88 L 168 88 Q 176 88 176 96 L 176 116 L48 116 ' style='fill:url(#tbg_8099FF);stroke:1;stroke-opacity:0.1;' />
+<rect class='entity' x='48' y='88' width='128' height='176' rx='8' ry='8' style='fill:none;stroke:#DADBE1'/>
+<a xlink:href='#public.rna_meta'><text x='81' y='107' >rna_meta</text><title>Table public.rna_meta
+Meta data about the rna-seq experiment.</title></a>
+  <use id='nn' x='50' y='125' xlink:href='#nn'/><use id='pk' x='50' y='124' xlink:href='#pk'><title>Pk pk_rna_meta_rna_id ( rna_id ) </title></use><a xlink:href='#public.rna_meta_rna_id'><text id='public.rna_meta.rna_id' x='67' y='135' onmouseover="hghl(['gene_expression_fk_gene_expression_rna_meta','public.gene_expression.rna_id'])" onmouseout="uhghl(['gene_expression_fk_gene_expression_rna_meta','public.gene_expression.rna_id'])">rna_id</text><title>rna_id
+* serial</title></a>
+<a xlink:href='#public.rna_meta.rna_id'><use id='ref' x='164' y='124' xlink:href='#ref'/><title>Referred by gene_expression ( rna_id ) </title></a>
+  <use id='nn' x='50' y='141' xlink:href='#nn'/><a xlink:href='#public.rna_meta_analyst'><text id='public.rna_meta.analyst' x='67' y='151'>analyst</text><title>analyst
+* text
+Who processed the data and sent it to the analytical database</title></a>
+<text x='173' y='148' text-anchor='end' class='colType'>t</text>  <use id='nn' x='50' y='157' xlink:href='#nn'/><a xlink:href='#public.rna_meta_dev_stage'><text id='public.rna_meta.dev_stage' x='67' y='167'>dev_stage</text><title>dev_stage
+* varchar
+developmental stage of the organism</title></a>
+<text x='173' y='164' text-anchor='end' class='colType'>t</text>  <use id='nn' x='50' y='173' xlink:href='#nn'/><a xlink:href='#public.rna_meta_species'><text id='public.rna_meta.species' x='67' y='183'>species</text><title>species
+* varchar</title></a>
+<text x='173' y='180' text-anchor='end' class='colType'>t</text>  <use id='nn' x='50' y='189' xlink:href='#nn'/><a xlink:href='#public.rna_meta_date_calculated'><text id='public.rna_meta.date_calculated' x='67' y='199'>date_calculated</text><title>date_calculated
+* date</title></a>
+<text x='173' y='196' text-anchor='end' class='colType'>d</text>  <a xlink:href='#public.rna_meta_description'><text id='public.rna_meta.description' x='67' y='215'>description</text><title>description
+varchar</title></a>
+<text x='173' y='212' text-anchor='end' class='colType'>t</text>  <use id='nn' x='50' y='221' xlink:href='#nn'/><a xlink:href='#public.rna_meta_units'><text id='public.rna_meta.units' x='67' y='231'>units</text><title>units
+* varchar
+Units the expression data is in</title></a>
+<text x='173' y='228' text-anchor='end' class='colType'>t</text>  <use id='nn' x='50' y='237' xlink:href='#nn'/><a xlink:href='#public.rna_meta_replicate_group'><text id='public.rna_meta.replicate_group' x='67' y='247'>replicate_group</text><title>replicate_group
+* integer
+replicate group for an experiment</title></a>
+<text x='173' y='244' text-anchor='end' class='colType'>#</text>
 <!-- == Table 'atac_differential_peaks' == -->
 <rect class='entity' style='stroke:#8F561E' x='960' y='264' width='160' height='160' rx='8' ry='8' />
 <path d='M 960 292 L 960 272 Q 960 264 968 264 L 1112 264 Q 1120 264 1120 272 L 1120 292 L960 292 ' style='fill:url(#tbg_CC8033);stroke:1;stroke-opacity:0.1;' />
@@ -636,43 +596,55 @@ expression information about the genes in rna_meta</title></a>
 <a xlink:href='#public.atac_differential_peaks'><text x='968' y='283' >atac_differential_peaks</text><title>Table public.atac_differential_peaks</title></a>
   <use id='nn' x='962' y='301' xlink:href='#nn'/><use id='pk' x='962' y='300' xlink:href='#pk'><title>Pk pk_atac_differential_peaks_peak_id ( peak_id ) </title></use><a xlink:href='#public.atac_differential_peaks_peak_id'><text id='public.atac_differential_peaks.peak_id' x='979' y='311'>peak_id</text><title>peak_id
 * bigserial</title></a>
-<text x='1117' y='308' text-anchor='end' class='colType'>#</text>  <use id='nn' x='962' y='317' xlink:href='#nn'/><a xlink:href='#public.atac_differential_peaks_atac_diff_id'><text id='public.atac_differential_peaks.atac_diff_id' x='979' y='327' onmouseover="hghl(['atac_differential_peaks_fk_atac_differential_peaks','public.atac_diff_meta.atac_diff_id'])" onmouseout="uhghl(['atac_differential_peaks_fk_atac_differential_peaks','public.atac_diff_meta.atac_diff_id'])">atac_diff_id</text><title>atac_diff_id
+<text x='1117' y='308' text-anchor='end' class='colType'>#</text>  <use id='nn' x='962' y='317' xlink:href='#nn'/><use id='idx' x='962' y='316' xlink:href='#idx'><title>idx_atac_differential_peaks ( atac_diff_id, logfc, genome_structure_id, peak_range, pvalue ) </title></use><a xlink:href='#public.atac_differential_peaks_atac_diff_id'><text id='public.atac_differential_peaks.atac_diff_id' x='979' y='327' onmouseover="hghl(['atac_differential_peaks_fk_atac_differential_peaks','public.atac_diff_meta.atac_diff_id'])" onmouseout="uhghl(['atac_differential_peaks_fk_atac_differential_peaks','public.atac_diff_meta.atac_diff_id'])">atac_diff_id</text><title>atac_diff_id
 * integer</title></a>
 <a xlink:href='#public.atac_differential_peaks.atac_diff_id'><use id='fk' x='1108' y='316' xlink:href='#fk'/><title>References atac_diff_meta ( atac_diff_id ) </title></a>
-  <use id='nn' x='962' y='333' xlink:href='#nn'/><a xlink:href='#public.atac_differential_peaks_logfc'><text id='public.atac_differential_peaks.logfc' x='979' y='343'>logfc</text><title>logfc
+  <use id='nn' x='962' y='333' xlink:href='#nn'/><use id='idx' x='962' y='332' xlink:href='#idx'><title>idx_atac_differential_peaks ( atac_diff_id, logfc, genome_structure_id, peak_range, pvalue ) </title></use><a xlink:href='#public.atac_differential_peaks_logfc'><text id='public.atac_differential_peaks.logfc' x='979' y='343'>logfc</text><title>logfc
 * float8</title></a>
-<text x='1117' y='340' text-anchor='end' class='colType'>#</text>  <a xlink:href='#public.atac_differential_peaks_pvalue'><text id='public.atac_differential_peaks.pvalue' x='979' y='359'>pvalue</text><title>pvalue
+<text x='1117' y='340' text-anchor='end' class='colType'>#</text>  <use id='idx' x='962' y='348' xlink:href='#idx'><title>idx_atac_differential_peaks ( atac_diff_id, logfc, genome_structure_id, peak_range, pvalue ) </title></use><a xlink:href='#public.atac_differential_peaks_pvalue'><text id='public.atac_differential_peaks.pvalue' x='979' y='359'>pvalue</text><title>pvalue
 float8</title></a>
 <text x='1117' y='356' text-anchor='end' class='colType'>#</text>  <a xlink:href='#public.atac_differential_peaks_qvalue'><text id='public.atac_differential_peaks.qvalue' x='979' y='375'>qvalue</text><title>qvalue
 float8</title></a>
-<text x='1117' y='372' text-anchor='end' class='colType'>#</text>  <use id='nn' x='962' y='381' xlink:href='#nn'/><a xlink:href='#public.atac_differential_peaks_peak_loc'><text id='public.atac_differential_peaks.peak_loc' x='979' y='391'>peak_loc</text><title>peak_loc
+<text x='1117' y='372' text-anchor='end' class='colType'>#</text>  <use id='nn' x='962' y='381' xlink:href='#nn'/><use id='idx' x='962' y='380' xlink:href='#idx'><title>idx_atac_differential_peaks ( atac_diff_id, logfc, genome_structure_id, peak_range, pvalue ) </title></use><a xlink:href='#public.atac_differential_peaks_peak_range'><text id='public.atac_differential_peaks.peak_range' x='979' y='391'>peak_range</text><title>peak_range
 * int4range</title></a>
-  <use id='nn' x='962' y='397' xlink:href='#nn'/><a xlink:href='#public.atac_differential_peaks_genome_structure_id'><text id='public.atac_differential_peaks.genome_structure_id' x='979' y='407' onmouseover="hghl(['atac_differential_peaks_fk_atac_differential_peaks_geneome_structure','public.genome_structure.genome_structure_id'])" onmouseout="uhghl(['atac_differential_peaks_fk_atac_differential_peaks_geneome_structure','public.genome_structure.genome_structure_id'])">genome_structure_id</text><title>genome_structure_id
+  <use id='nn' x='962' y='397' xlink:href='#nn'/><use id='idx' x='962' y='396' xlink:href='#idx'><title>idx_atac_differential_peaks ( atac_diff_id, logfc, genome_structure_id, peak_range, pvalue ) </title></use><a xlink:href='#public.atac_differential_peaks_genome_structure_id'><text id='public.atac_differential_peaks.genome_structure_id' x='979' y='407' onmouseover="hghl(['atac_differential_peaks_fk_atac_diff_peaks_genome_structure','public.genome_structure.genome_structure_id'])" onmouseout="uhghl(['atac_differential_peaks_fk_atac_diff_peaks_genome_structure','public.genome_structure.genome_structure_id'])">genome_structure_id</text><title>genome_structure_id
 * integer</title></a>
 <a xlink:href='#public.atac_differential_peaks.genome_structure_id'><use id='fk' x='1108' y='396' xlink:href='#fk'/><title>References genome_structure ( genome_structure_id ) </title></a>
 
+<!-- == Table 'atac_diff_meta' == -->
+<rect class='entity' style='stroke:#8F561E' x='1152' y='296' width='128' height='112' rx='8' ry='8' />
+<path d='M 1152 324 L 1152 304 Q 1152 296 1160 296 L 1272 296 Q 1280 296 1280 304 L 1280 324 L1152 324 ' style='fill:url(#tbg_CC8033);stroke:1;stroke-opacity:0.1;' />
+<rect class='entity' x='1152' y='296' width='128' height='112' rx='8' ry='8' style='fill:none;stroke:#E1DDDA'/>
+<a xlink:href='#public.atac_diff_meta'><text x='1169' y='315' >atac_diff_meta</text><title>Table public.atac_diff_meta</title></a>
+  <use id='nn' x='1154' y='333' xlink:href='#nn'/><use id='pk' x='1154' y='332' xlink:href='#pk'><title>Pk pk_atac_de_meta_de_atac_id ( atac_diff_id ) </title></use><a xlink:href='#public.atac_diff_meta_atac_diff_id'><text id='public.atac_diff_meta.atac_diff_id' x='1171' y='343' onmouseover="hghl(['atac_differential_peaks_fk_atac_differential_peaks','public.atac_differential_peaks.atac_diff_id'])" onmouseout="uhghl(['atac_differential_peaks_fk_atac_differential_peaks','public.atac_differential_peaks.atac_diff_id'])">atac_diff_id</text><title>atac_diff_id
+* integer</title></a>
+<a xlink:href='#public.atac_diff_meta.atac_diff_id'><use id='ref' x='1268' y='332' xlink:href='#ref'/><title>Referred by atac_differential_peaks ( atac_diff_id ) </title></a>
+  <a xlink:href='#public.atac_diff_meta_analyst'><text id='public.atac_diff_meta.analyst' x='1171' y='359'>analyst</text><title>analyst
+text</title></a>
+<text x='1277' y='356' text-anchor='end' class='colType'>t</text>  <a xlink:href='#public.atac_diff_meta_date_calculated'><text id='public.atac_diff_meta.date_calculated' x='1171' y='375'>date_calculated</text><title>date_calculated
+date</title></a>
+<text x='1277' y='372' text-anchor='end' class='colType'>d</text>  <a xlink:href='#public.atac_diff_meta_description'><text id='public.atac_diff_meta.description' x='1171' y='391'>description</text><title>description
+varchar</title></a>
+<text x='1277' y='388' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'gene_ontology' == -->
+<rect class='entity' style='stroke:#8F1E44' x='432' y='312' width='112' height='112' rx='8' ry='8' />
+<path d='M 432 340 L 432 320 Q 432 312 440 312 L 536 312 Q 544 312 544 320 L 544 340 L432 340 ' style='fill:url(#tbg_B36680);stroke:1;stroke-opacity:0.1;' />
+<rect class='entity' x='432' y='312' width='112' height='112' rx='8' ry='8' style='fill:none;stroke:#E1DADC'/>
+<a xlink:href='#public.gene_ontology'><text x='441' y='331' >gene_ontology</text><title>Table public.gene_ontology</title></a>
+  <use id='nn' x='434' y='349' xlink:href='#nn'/><use id='pk' x='434' y='348' xlink:href='#pk'><title>Pk idx_gene_ontology ( gene_id, go_num ) </title></use><a xlink:href='#public.gene_ontology_gene_id'><text id='public.gene_ontology.gene_id' x='451' y='359' onmouseover="hghl(['gene_ontology_fk_gene_ontology_gene_info','public.gene_info.gene_id'])" onmouseout="uhghl(['gene_ontology_fk_gene_ontology_gene_info','public.gene_info.gene_id'])">gene_id</text><title>gene_id
+* varchar</title></a>
+<a xlink:href='#public.gene_ontology.gene_id'><use id='fk' x='532' y='348' xlink:href='#fk'/><title>References gene_info ( gene_id ) </title></a>
+  <use id='nn' x='434' y='365' xlink:href='#nn'/><use id='pk' x='434' y='364' xlink:href='#pk'><title>Pk idx_gene_ontology ( gene_id, go_num ) </title></use><a xlink:href='#public.gene_ontology_go_num'><text id='public.gene_ontology.go_num' x='451' y='375'>go_num</text><title>go_num
+* varchar</title></a>
+<text x='541' y='372' text-anchor='end' class='colType'>t</text>  <a xlink:href='#public.gene_ontology_ot_type'><text id='public.gene_ontology.ot_type' x='451' y='391'>ot_type</text><title>ot_type
+varchar</title></a>
+<text x='541' y='388' text-anchor='end' class='colType'>t</text>  <a xlink:href='#public.gene_ontology_ot_data'><text id='public.gene_ontology.ot_data' x='451' y='407'>ot_data</text><title>ot_data
+varchar</title></a>
+<text x='541' y='404' text-anchor='end' class='colType'>t</text>
 </g></svg></div>
 <div class='container'>
 
-<div class='card'><div class='card-body'>
-<h5 class='card-title'>Tables</h5>
-<ul>
-<li><a href='#public.atac_data'/>public.atac_data</a>
-<li><a href='#public.atac_diff_meta'/>public.atac_diff_meta</a>
-<li><a href='#public.atac_diff_meta_individual_samples'/>public.atac_diff_meta_individual_samples</a>
-<li><a href='#public.atac_differential_peaks'/>public.atac_differential_peaks</a>
-<li><a href='#public.atac_meta'/>public.atac_meta</a>
-<li><a href='#public.gene_differential_expression'/>public.gene_differential_expression</a>
-<li><a href='#public.gene_expression'/>public.gene_expression</a>
-<li><a href='#public.gene_info'/>public.gene_info</a>
-<li><a href='#public.gene_ontology'/>public.gene_ontology</a>
-<li><a href='#public.gene_structure'/>public.gene_structure</a>
-<li><a href='#public.genome_structure'/>public.genome_structure</a>
-<li><a href='#public.qpcr_timeseries'/>public.qpcr_timeseries</a>
-<li><a href='#public.rna_diff_meta'/>public.rna_diff_meta</a>
-<li><a href='#public.rna_diff_meta_individual_samples'/>public.rna_diff_meta_individual_samples</a>
-<li><a href='#public.rna_meta'/>public.rna_meta</a></ul>
-</div></div><br><br><br><br>
+<br><br>
 <div class='card'><div class='card-body'><a name='public.atac_data' onclick='window.scrollTo(760, 96);return false;' style='cursor:pointer;'><h5 class='card-title'>Table atac_data</h5></a>
 <table class='table table-sm table-bordered small' style='table-layout: fixed; word-wrap: break-word;'>
 <thead>
@@ -686,25 +658,25 @@ float8</title></a>
 		<td>  </td>
 	</tr>
 	<tr>
-		<td>*<svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td>*<svg width='14' height='14'><use xlink:href='#idx'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
 		<td><a name='public.atac_data_atac_id'>atac&#95;id</a></td>
 		<td> integer   </td>
 		<td>  </td>
 	</tr>
 	<tr>
-		<td>*</td>
+		<td>&nbsp;</td>
 		<td><a name='public.atac_data_peak_value'>peak&#95;value</a></td>
 		<td> float8   </td>
 		<td>  </td>
 	</tr>
 	<tr>
-		<td>&nbsp;</td>
+		<td>*<svg width='14' height='14'><use xlink:href='#idx'/></svg></td>
 		<td><a name='public.atac_data_peak_range'>peak&#95;range</a></td>
 		<td> int4range   </td>
 		<td>  </td>
 	</tr>
 	<tr>
-		<td>*<svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td>*<svg width='14' height='14'><use xlink:href='#idx'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
 		<td><a name='public.atac_data_genome_structure_id'>genome&#95;structure&#95;id</a></td>
 		<td> integer   </td>
 		<td>  </td>
@@ -712,6 +684,10 @@ float8</title></a>
 <tr><th colspan='4'>Indexes</th></tr>
 	<tr>		<td><svg width='14' height='14'><use xlink:href='#pk'/></svg></td><td>pk&#95;atac&#95;data&#95;peak&#95;id</td>
 		<td> ON peak&#95;id</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>idx&#95;atac&#95;data</td>
+		<td> ON atac&#95;id&#44; peak&#95;range&#44; genome&#95;structure&#95;id</td>
 		<td>  </td>
 	</tr>
 <tr><th colspan='4'>Foreign Keys</th></tr>
@@ -784,7 +760,7 @@ float8</title></a>
 An analysis might have multiple individual datasets&#46; For example&#44; 3 replicates from one condition and 3 replicates from another&#46; </td>
 	</tr>
 	<tr>
-		<td>*<svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td>*</td>
 		<td><a name='public.atac_diff_meta_individual_samples_atac_diff_id'>atac&#95;diff&#95;id</a></td>
 		<td> integer   </td>
 		<td>  </td>
@@ -806,12 +782,6 @@ An analysis might have multiple individual datasets&#46; For example&#44; 3 repl
 		<td> ON atac&#95;diff&#95;individual&#95;id</td>
 		<td>  </td>
 	</tr>
-<tr><th colspan='4'>Foreign Keys</th></tr>
-	<tr>
-		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>fk_atac_diff_meta_indiv_samples</td>
-		<td > ( atac&#95;diff&#95;id ) ref <a href='#public&#46;atac&#95;diff&#95;meta'>atac&#95;diff&#95;meta</a> (atac&#95;diff&#95;id) </td>
-		<td>  </td>
-	</tr>
 </tbody>
 </table></div></div>
 
@@ -829,19 +799,19 @@ An analysis might have multiple individual datasets&#46; For example&#44; 3 repl
 		<td>  </td>
 	</tr>
 	<tr>
-		<td>*<svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td>*<svg width='14' height='14'><use xlink:href='#idx'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
 		<td><a name='public.atac_differential_peaks_atac_diff_id'>atac&#95;diff&#95;id</a></td>
 		<td> integer   </td>
 		<td>  </td>
 	</tr>
 	<tr>
-		<td>*</td>
+		<td>*<svg width='14' height='14'><use xlink:href='#idx'/></svg></td>
 		<td><a name='public.atac_differential_peaks_logfc'>logfc</a></td>
 		<td> float8   </td>
 		<td>  </td>
 	</tr>
 	<tr>
-		<td>&nbsp;</td>
+		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td>
 		<td><a name='public.atac_differential_peaks_pvalue'>pvalue</a></td>
 		<td> float8   </td>
 		<td>  </td>
@@ -853,13 +823,13 @@ An analysis might have multiple individual datasets&#46; For example&#44; 3 repl
 		<td>  </td>
 	</tr>
 	<tr>
-		<td>*</td>
-		<td><a name='public.atac_differential_peaks_peak_loc'>peak&#95;loc</a></td>
+		<td>*<svg width='14' height='14'><use xlink:href='#idx'/></svg></td>
+		<td><a name='public.atac_differential_peaks_peak_range'>peak&#95;range</a></td>
 		<td> int4range   </td>
 		<td>  </td>
 	</tr>
 	<tr>
-		<td>*<svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td>*<svg width='14' height='14'><use xlink:href='#idx'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
 		<td><a name='public.atac_differential_peaks_genome_structure_id'>genome&#95;structure&#95;id</a></td>
 		<td> integer   </td>
 		<td>  </td>
@@ -869,6 +839,10 @@ An analysis might have multiple individual datasets&#46; For example&#44; 3 repl
 		<td> ON peak&#95;id</td>
 		<td>  </td>
 	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>idx&#95;atac&#95;differential&#95;peaks</td>
+		<td> ON atac&#95;diff&#95;id&#44; logfc&#44; genome&#95;structure&#95;id&#44; peak&#95;range&#44; pvalue</td>
+		<td>  </td>
+	</tr>
 <tr><th colspan='4'>Foreign Keys</th></tr>
 	<tr>
 		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>fk_atac_differential_peaks</td>
@@ -876,7 +850,7 @@ An analysis might have multiple individual datasets&#46; For example&#44; 3 repl
 		<td>  </td>
 	</tr>
 	<tr>
-		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>fk_atac_differential_peaks_geneome_structure</td>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>fk_atac_diff_peaks_genome_structure</td>
 		<td > ( genome&#95;structure&#95;id ) ref <a href='#public&#46;genome&#95;structure'>genome&#95;structure</a> (genome&#95;structure&#95;id) </td>
 		<td>  </td>
 	</tr>
